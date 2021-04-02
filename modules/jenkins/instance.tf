@@ -67,7 +67,8 @@ resource "aws_instance" "redhat-servers" {
 
     tags = {
       "Name" = var.server_name
-    }
+  
+	    }
 } 
 
 
