@@ -28,7 +28,8 @@ terraform {
   }
 
   tags = {
-    "Terraform" = "true"
+  
+	  "Terraform" = "true"
   }
 }
     
