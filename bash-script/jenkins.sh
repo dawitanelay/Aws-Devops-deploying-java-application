@@ -8,4 +8,13 @@
       sudo yum -y install jenkins
       sudo  systemctl start jenkins
       sudo systemctl enable jenkins
+      sudo echo "maven installation"
+      sudo mkdir /opt/maven.  
+      sudo wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz  
+      sudo tar -xvzf 
+      sudo export M2_HOME=/opt/maven/apache-maven-3.6.3  
+      sudo export M2=$M2_HOME/bin 
+      sudo  systemctl start jenkins
+      echo "Done"
+      
       
