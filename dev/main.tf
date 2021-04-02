@@ -20,7 +20,7 @@ module "jenkins" {
   ami           = "ami-096fda3c22c1c990a" 
   instance_type = "t2.micro"
   server_name   = "jenkins-server" 
-  key_name      = "key-name" 
+  key_name      = "jenkis-name" 
 }
 
 
