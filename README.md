@@ -58,7 +58,7 @@
  
 8. terraform apply 
 
-# Post-Install Configuration Post 
+# Post-Install Configuration 
  ## Jenkins 
  
  	1 Browse http:your-target-ip:8080
