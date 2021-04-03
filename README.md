@@ -34,17 +34,16 @@
               private_key = file("~/key/ansible-key.pem") 
              } 
       ```
-5. specify corrrect PATH for file provisioning to excute bash scripte. 
+5. specify corrrect PATH for file provisioning to excute bash scripte
 
-    - file provisioning  directory of a file
+    -file provisioning  directory of a file
     
           CI-CD-PipelineOnAws/modules/ansible/instance.tf
           
           CI-CD-PipelineOnAws/modules/jenkins/instance.tf
           
           CI-CD-PipelineOnAws/modules/tomcat/instance.tf
-          
-             ```sh
+       ```sh
           provisioner "file" {
 	        	source     = "~/bash-script/ansible.sh" 
 		      destination  = "/tmp/ansible.sh" 
