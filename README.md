@@ -107,11 +107,8 @@
 ## Ansible 
 	
 	1 su - ansadmin  
-	
 	2 ssh-keygen
-	
 	3 ssh-copy-id target-ip-address (tomcat-ipaddress)
-	
 	4 nano /etc/ansible/hosts  add tomcat ip address
 	5 test using ansible all -m ping
 	6 write playbooks under /opt/playbooks
