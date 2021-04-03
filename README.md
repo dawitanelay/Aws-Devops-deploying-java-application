@@ -66,7 +66,7 @@
 # Post-Install Configuration Post 
  - Jenkins 
  
- 	1 browse <your-target-ip>:8080
+ 	1 browse http:your-target-ip:8080
 	
  	2 username admin
  	
@@ -83,7 +83,7 @@
 	8 provide your project git url
  - Tomcat 
 	
-	1 browse <your-target-ip>:8080
+	1 browse http:your-target-ip:8080
  	
 	2 allow tomcat to login from browser  
  	 	type  #find -name context.xml# 3 context.xml files. comment () Value ClassName field on files which are under webapp directory. 
