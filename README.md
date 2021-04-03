@@ -11,10 +11,13 @@
 1. [Install terraform ](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 2. git clone 
 3. [create aws EC2 key pairs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
+
     - jenkins-key.pem
     - ansible-key.pem
     - tomcat-key.pem
+    
 4 provide your private key under Provisioner Connection Settings
+
   - Provisioner Connection Settings directory of a file  
         - CI-CD-PipelineOnAws/modules/ansible/instance.tf
         - CI-CD-PipelineOnAws/modules/jenkins/instance.tf
