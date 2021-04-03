@@ -54,8 +54,10 @@
 
 7 export AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 
- $ export AWS_ACCESS_KEY_ID="anaccesskey"
- $ export AWS_SECRET_ACCESS_KEY="asecretkey"
+```sh
+         $ export AWS_ACCESS_KEY_ID="anaccesskey"
+         $ export AWS_SECRET_ACCESS_KEY="asecretkey"
+      ```
  
 8 terraform apply 
 
