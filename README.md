@@ -53,3 +53,5 @@
 6 cd /dev
 
 7 terraform apply 
+
+# Post Install configuration 
