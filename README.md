@@ -20,11 +20,11 @@
 
   - Provisioner Connection Settings directory of a file  
   
-        - CI-CD-PipelineOnAws/modules/ansible/instance.tf
+         CI-CD-PipelineOnAws/modules/ansible/instance.tf
         
-        - CI-CD-PipelineOnAws/modules/jenkins/instance.tf
+         CI-CD-PipelineOnAws/modules/jenkins/instance.tf
         
-        - CI-CD-PipelineOnAws/modules/tomcat/instance.tf
+         CI-CD-PipelineOnAws/modules/tomcat/instance.tf
         
       ```sh
         connection {
@@ -38,17 +38,19 @@
 
     - file provisioning  directory of a file
     
-          - CI-CD-PipelineOnAws/modules/ansible/instance.tf
+          CI-CD-PipelineOnAws/modules/ansible/instance.tf
           
-          - CI-CD-PipelineOnAws/modules/jenkins/instance.tf
+          CI-CD-PipelineOnAws/modules/jenkins/instance.tf
           
-          - CI-CD-PipelineOnAws/modules/tomcat/instance.tf
+          CI-CD-PipelineOnAws/modules/tomcat/instance.tf
           
              ```sh
           provisioner "file" {
 	        	source     = "~/bash-script/ansible.sh" 
 		      destination  = "/tmp/ansible.sh" 
-	}  
+	            }  
       ```
+      
 6 cd /dev
+
 7 terraform apply 
