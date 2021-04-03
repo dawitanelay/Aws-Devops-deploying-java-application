@@ -61,6 +61,6 @@
          $ export AWS_SECRET_ACCESS_KEY="asecretkey"
       ```
  
-8 terraform apply 
+8. terraform apply 
 
-#. Post Install configuration 
+# Post Install configuration 
