@@ -65,7 +65,7 @@
 
 # Post-Install Configuration Post 
  - Jenkins 
- 	1. browse <your-target-ip>:8080
+ 	1 browse <your-target-ip>:8080
  	2. username admin
  	3. password Location:/var/lib/jenkins/secrets/initialAdminPassword
  	4. change password 
