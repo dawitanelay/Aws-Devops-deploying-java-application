@@ -21,27 +21,22 @@
   - Provisioner Connection Settings directory of a file  
   
          CI-CD-PipelineOnAws/modules/ansible/instance.tf
-        
          CI-CD-PipelineOnAws/modules/jenkins/instance.tf
-        
          CI-CD-PipelineOnAws/modules/tomcat/instance.tf
         
-      ```sh
         connection {
               type        = "ssh"
               host        = self.public_ip 
               user        = "ec2-user" 
               private_key = file("~/key/ansible-key.pem") 
              } 
-      ```
+      
 5. Specify corrrect PATH for file provisioning to excute bash scripte
 
     - file provisioning  directory of a file
     
           CI-CD-PipelineOnAws/modules/ansible/instance.tf
-          
-          CI-CD-PipelineOnAws/modules/jenkins/instance.tf
-          
+          CI-CD-PipelineOnAws/modules/jenkins/instance.tf    
           CI-CD-PipelineOnAws/modules/tomcat/instance.tf
        
           provisioner "file" {
