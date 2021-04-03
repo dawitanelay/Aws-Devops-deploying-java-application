@@ -64,7 +64,7 @@
 8. terraform apply 
 
 # Post-Install Configuration Post 
- - Jenkins 
+ ## Jenkins 
  
  	1 Browse http:your-target-ip:8080
 	
@@ -81,7 +81,7 @@
 	7 Configure maven path
  	
 	8 Provide your project git url
- - Tomcat 
+ ## Tomcat 
 	
 	1 Browse http:your-target-ip:8080
  	
@@ -104,5 +104,5 @@
 		 
 	5 Restart service and try to login to a tomcat application from the browser use tomcat user with password root123.  
 	
-- Ansible 
+## Ansible 
 	1 
