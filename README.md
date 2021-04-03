@@ -19,9 +19,13 @@
 4 provide your private key under Provisioner Connection Settings
 
   - Provisioner Connection Settings directory of a file  
+  
         - CI-CD-PipelineOnAws/modules/ansible/instance.tf
+        
         - CI-CD-PipelineOnAws/modules/jenkins/instance.tf
+        
         - CI-CD-PipelineOnAws/modules/tomcat/instance.tf
+        
       ```sh
         connection {
               type        = "ssh"
@@ -31,10 +35,15 @@
              } 
       ```
 5. specify corrrect PATH for file provisioning to excute bash scripte. 
+
     - file provisioning  directory of a file
+    
           - CI-CD-PipelineOnAws/modules/ansible/instance.tf
+          
           - CI-CD-PipelineOnAws/modules/jenkins/instance.tf
+          
           - CI-CD-PipelineOnAws/modules/tomcat/instance.tf
+          
              ```sh
           provisioner "file" {
 	        	source     = "~/bash-script/ansible.sh" 
