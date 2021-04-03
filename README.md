@@ -77,12 +77,9 @@
  ## Tomcat 
 	
 	1 Browse http:your-target-ip:8080
- 	
 	2 Allow tomcat to login from browser type  #find -name context.xml# 3 context.xml files.
 	  comment () Value ClassName field on files which are under webap directory. 
-	
 	3 Restart tomcat -  type tomcatup 
-	
 	4 Copy the following file under /opt/apache-tomcat-8.5.35/conf/tomcat-user.xml 
 	
 	 ```sh
@@ -93,8 +90,7 @@
 		<user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/> 
 		<user username="deployer" password="deployer" roles="manager-script"/> 
 		<user username="tomcat" password="root123" roles="manager-gui"/> 	
-     	 ```
-		 
+     	 ```	 
 	5 Restart service and try to login to a tomcat application from the browser use tomcat user with password root123.  
 	
 ## Ansible 
