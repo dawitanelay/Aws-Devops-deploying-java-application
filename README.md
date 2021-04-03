@@ -91,6 +91,7 @@
 	3 restart tomcat -  type tomcatup 
 	
 	4 copy the following file under /opt/apache-tomcat-8.5.35/conf/tomcat-user.xml 
+	
 	     ```sh
         	<role rolename="manager-gui"/> 
 		<role rolename="manager-script"/> 
@@ -100,4 +101,5 @@
 		<user username="deployer" password="deployer" roles="manager-script"/> 
 		<user username="tomcat" password="root123" roles="manager-gui"/> 	
      		 ```
+		 
 	5 Restart service and try to login to a tomcat application from the browser use tomcat user with password root123.  
