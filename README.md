@@ -63,4 +63,29 @@
  
 8. terraform apply 
 
-# Post Install configuration 
+# Post-Install Configuration Post 
+ - Jenkins 
+ 	1. browse <your-target-ip>:8080
+ 	2. username admin
+ 	3. password Location:/var/lib/jenkins/secrets/initialAdminPassword
+ 	4. change password 
+ 	5. configure java path
+ 	6. create maven project
+ 	7. configure maven path
+ 	8. provide your project git url
+ - tomcat 
+ 	1.browse <your-target-ip>:8080
+ 	2.allow tomcat to login from browser  
+ 	 	type  #find -name context.xml# 3 context.xml files. comment () Value ClassName field on files which are under webapp directory. 
+	3. restart tomcat -  type tomcatup 
+	4. copy the following file under /opt/apache-tomcat-8.5.35/conf/tomcat-user.xml 
+	     ```sh
+        	<role rolename="manager-gui"/> 
+		<role rolename="manager-script"/> 
+		<role rolename="manager-jmx"/> 
+		<role rolename="manager-status"/> 
+		<user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/> 
+		<user username="deployer" password="deployer" roles="manager-script"/> 
+		<user username="tomcat" password="root123" roles="manager-gui"/> 	
+     		 ```
+	5. Restart service and try to login to a tomcat application from the browser use tomcat user with password root123.  
