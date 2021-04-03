@@ -85,8 +85,8 @@
 	
 	1 Browse http:your-target-ip:8080
  	
-	2 Allow tomcat to login from browser  
- 	 	type  #find -name context.xml# 3 context.xml files. comment () Value ClassName field on files which are under webapp directory. 
+	2 Allow tomcat to login from browser type  #find -name context.xml# 3 context.xml files.
+	  comment () Value ClassName field on files which are under webap directory. 
 	
 	3 Restart tomcat -  type tomcatup 
 	
