@@ -51,7 +51,7 @@
       
       
 6.  ```sh
-         cd CI-CD-PipelineOnAws/dev
+    cd CI-CD-PipelineOnAws/dev
       ```
 
 7. export AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
