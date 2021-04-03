@@ -103,3 +103,6 @@
      		 ```
 		 
 	5 Restart service and try to login to a tomcat application from the browser use tomcat user with password root123.  
+	
+- Ansible 
+	1 
