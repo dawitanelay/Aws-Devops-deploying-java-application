@@ -67,19 +67,12 @@
  ## Jenkins 
  
  	1 Browse http:your-target-ip:8080
-	
  	2 Username admin
- 	
 	3 Password Location:/var/lib/jenkins/secrets/initialAdminPassword
- 	
 	4 Change password 
- 	
 	5 Configure java path
- 	
 	6 Create maven project
- 	
 	7 Configure maven path
- 	
 	8 Provide your project git url
  ## Tomcat 
 	
