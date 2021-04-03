@@ -36,7 +36,7 @@
       ```
 5. specify corrrect PATH for file provisioning to excute bash scripte
 
-    -file provisioning  directory of a file
+    - file provisioning  directory of a file
     
           CI-CD-PipelineOnAws/modules/ansible/instance.tf
           
