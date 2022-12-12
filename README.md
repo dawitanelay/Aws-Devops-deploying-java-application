@@ -1,8 +1,7 @@
 
 # Infrastructure automation with Terraform on AWS for CI/CD pipeline to host a java web application.
 
-# Abstract  
-To construct a CI/CD pipeline to host a java web application.  Assume you are developing a web application; you have 15 developers working in building the project with a shard Git repository and you want to deploy the web app on 100 web servers in real time while the developers are committing a code. In such case a Continuous Integration (CI) builds and tests the web app after developers made a code change on git whereas a continuous delivery pushes approved changes to 100 web servers. CI/CD allow us to deliver code changes more frequently using automation.  
+
 # Objective  
 The aim of the project is to get hands on experience in CI/CD pipeline and on cloud. By the end of the project, we will have a single terraform repository where you can type terraform apply command and it will do CI/CD pipeline for you.  
 
